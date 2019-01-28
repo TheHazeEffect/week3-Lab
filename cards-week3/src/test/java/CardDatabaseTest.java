@@ -33,7 +33,7 @@ public class CardDatabaseTest {
 		Card data =  db.readFirstRecord();
 		assertNotNull(data);
 		assertEquals("Club",data.getSuite());
-		assertEquals(1,data.getNumber());
+		assertEquals(1,data.getNumber(),0);
 
 		
 	}
